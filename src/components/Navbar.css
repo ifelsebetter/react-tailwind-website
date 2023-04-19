@@ -1,0 +1,14 @@
+.navbar-menu {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 35.75%;
+    height: 100vh;
+    background-color: #191919;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .navbar-menu.open {
+    left: 0;
+  }
+  
