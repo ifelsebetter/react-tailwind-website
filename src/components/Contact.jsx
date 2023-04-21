@@ -3,7 +3,7 @@ import { BsDiscord } from "react-icons/bs"
 import { CgMail } from 'react-icons/cg';
 import { FaDonate } from 'react-icons/fa'
 
-const Contract = () => {
+const Contact = () => {
   const handleDiscordClick = () => {
     const discord = "! if#1046";
     navigator.clipboard.writeText(discord);
@@ -36,4 +36,4 @@ const Contract = () => {
   )
 }
 
-export default Contract;
+export default Contact;
