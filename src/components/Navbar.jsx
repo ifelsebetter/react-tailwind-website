@@ -28,6 +28,7 @@ const Navbar = () => {
     <nav className="flex justify-between items-center h-24 mx-auto px-4 text-white bg-[#191919]">
       <button>
         <GiGalaxy size={50} />
+        <a href="/"></a>
       </button>
 
       <ul className="hidden md:flex">
