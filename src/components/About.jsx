@@ -1,7 +1,7 @@
 import React from "react";
 import Pfp_pic from './assets/Pic.png';
 import { FaReact, FaNodeJs, FaJs } from "react-icons/fa";
-import { SiC, SiTailwindcss } from 'react-icons/si'
+import { SiC, SiTailwindcss, SiPython } from 'react-icons/si'
 
 const About = () => {
   return (
@@ -25,6 +25,9 @@ const About = () => {
             </div>
             <div className="flex items-center mr-8 mb-4">
               <FaJs className="text-4xl mr-2 text-yellow-500" />
+            </div>
+            <div className="flex items-center mr-8 mb-4">
+              <SiPython className="text-4xl mr-2 text-[#4182b4]" />
             </div>
           </div>
         </div>

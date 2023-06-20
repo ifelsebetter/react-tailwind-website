@@ -25,7 +25,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="flex justify-between items-center h-24 mx-auto px-4 text-white bg-[#191919]">
+    <nav className="flex justify-between items-center h-24 mx-auto px-4 text-white bg-[#191919] max-w-screen-sm rounded-[25px] mt-[3%]">
       <button>
         <GiGalaxy size={50} />
         <a href="/"></a>

@@ -8,10 +8,10 @@ const Main = () => {
       <div className='max-w-[790px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center'>
         <div className='md:text-5xl sm:text-6xl text-4xl font-bold md:py-6'>
           <Typed
-          strings={["Welcome to my Website.", "This website created by React Js library.", "Hope you like it."]}
-          typeSpeed={120}
+          strings={["Welcome to my Website.", "This website created by React Js and Tailwindcss", "Hope you like it."]}
+          typeSpeed={75}
           backDelay={30}
-          backSpeed={120}
+          backSpeed={80}
           loop
           />
         </div>
