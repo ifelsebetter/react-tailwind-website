@@ -1,23 +1,17 @@
 import { useState, useEffect } from "react";
 import { GiGalaxy } from "react-icons/gi";
-import { BiHomeAlt2, BiUser } from "react-icons/bi";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai"
-import { CgMail } from "react-icons/cg";
 import './Navbar.css';
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const handleMenuToggle = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth > 768) {
-        setIsMenuOpen(false);
-      }
+      setIsSmallScreen(window.innerWidth <= 768);
     };
+
+    handleResize(); // Check initial screen size
+
     window.addEventListener("resize", handleResize);
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -25,13 +19,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="flex justify-between items-center h-24 mx-auto px-4 text-white bg-[#191919] max-w-screen-sm rounded-[25px] mt-[3%]">
-      <button>
-        <GiGalaxy size={50} />
-        <a href="/"></a>
-      </button>
-
-      <ul className="hidden md:flex">
+    <nav className={`flex justify-between items-center h-24 mx-auto px-4 text-white bg-[#191919] ${isSmallScreen ? 'max-w-[320px]' : 'max-w-screen-sm'} rounded-[25px] mt-[3%] border-2 border-white`}>
+      <GiGalaxy size={50} />
+      <ul className="flex ml-8">
         <li className="p-4">
           <a href="/">Home</a>
         </li>
@@ -40,47 +30,6 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           <a href="/contact">Contact</a>
-        </li>
-      </ul>
-
-      <button
-        className="block md:hidden"
-        onClick={handleMenuToggle}
-        aria-label="Menu"
-      >
-        {isMenuOpen ? (
-          <AiOutlineClose size={30} />
-        ) : (
-          <AiOutlineMenu size={30} />
-        )}
-      </button>
-
-      <ul
-        className={`${isMenuOpen ? "navbar-menu open" : "navbar-menu"}`}
-        aria-hidden={!isMenuOpen}
-      >
-        <li className="m-6 text-left align-bottom">
-          <a href="/">
-            <GiGalaxy size={50} />
-          </a>
-        </li>
-        <li className="p-4 border-t border-b border-gray-600 flex items-center">
-          <BiHomeAlt2 size={23} />
-          <a href="/" className="ml-3">
-            Home
-          </a>
-        </li>
-        <li className="p-4 border-b border-gray-600 flex items-center">
-          <BiUser size={23} />
-          <a href="/about" className="ml-3">
-            About
-          </a>
-        </li>
-        <li className="p-4 border-b border-gray-600 flex items-center">
-          <CgMail size={23} />
-          <a href="/contact" className="ml-3">
-            Contact
-          </a>
         </li>
       </ul>
     </nav>
