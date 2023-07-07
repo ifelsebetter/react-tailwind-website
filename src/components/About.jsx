@@ -1,14 +1,10 @@
 import React from "react";
-import Pfp_pic from './assets/Pic.png';
 import { FaReact, FaNodeJs, FaJs } from "react-icons/fa";
 import { SiC, SiTailwindcss, SiPython } from 'react-icons/si'
 
 const About = () => {
   return (
     <div className="flex flex-col md:flex-row items-center p-8 md:p-0 md:justify-center max-w-7xl mx-auto justify-center md:h-screen text-white">
-      <div className="md:mr-8">
-        <img src={Pfp_pic} alt="" className="rounded max-w-xs md:max-w-none md:h-auto" />
-      </div>
       <div className="md:ml-8">
         <h2 className="text-3xl font-bold mb-4">Hi, I'm Yu</h2>
         <p className="text-lg mb-4">
