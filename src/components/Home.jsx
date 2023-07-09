@@ -16,6 +16,9 @@ const Main = () => {
           />
         </div>
       </div>
+      <footer className="text-sm mt-4 text-gray-500">
+        This website is created to provide support and assistance for the Quartyz | Mukuro script. © 2023 ! if#1046. All rights reserved.
+      </footer>
     </div>
   );
 };
