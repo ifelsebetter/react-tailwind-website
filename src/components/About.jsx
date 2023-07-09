@@ -19,11 +19,11 @@ const About = () => {
             <span className="text-base md:text-lg ml-2">C</span>
           </div>
           <div className="flex items-center mr-8 mb-4">
-            <FaJs className="text-3xl md:text-4xl mr-2 text-yellow-500" />
+            <FaJs className="text-3xl md:text-4xl mr-2 text-[#f1e05a]" />
             <span className="text-base md:text-lg ml-2">JavaScript</span>
           </div>
           <div className="flex items-center mr-8 mb-4">
-            <SiPython className="text-3xl md:text-4xl mr-2 text-[#4182b4]" />
+            <SiPython className="text-3xl md:text-4xl mr-2 text-[#3572A5]" />
             <span className="text-base md:text-lg ml-2">Python</span>
           </div>
         </div>
@@ -32,15 +32,15 @@ const About = () => {
         </p>
         <div className="flex flex-wrap mb-8">
           <div className="flex items-center mr-8 mb-4">
-            <FaNodeJs className="text-3xl md:text-4xl mr-2 text-green-500" />
+            <FaNodeJs className="text-3xl md:text-4xl mr-2 text-[#69A164]" />
             <span className="text-base md:text-lg ml-2">Express</span>
           </div>
           <div className="flex items-center mr-8 mb-4">
-            <FaReact className="text-3xl md:text-4xl mr-2 text-blue-500" />
+            <FaReact className="text-3xl md:text-4xl mr-2 text-[#61DAFC]" />
             <span className="text-base md:text-lg ml-2">React</span>
           </div>
           <div className="flex items-center mr-8 mb-4">
-            <SiTailwindcss className="text-3xl md:text-4xl mr-2 text-teal-500" />
+            <SiTailwindcss className="text-3xl md:text-4xl mr-2 text-[#38BDF8]" />
             <span className="text-base md:text-lg ml-2">Tailwind CSS</span>
           </div>
         </div>

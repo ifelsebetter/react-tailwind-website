@@ -23,11 +23,11 @@ const Navbar = () => {
       <GiGalaxy size={50} />
       <ul className="flex ml-8">
         <li className="p-4">
-          <a href="/">Home</a>
+          <a href="/">About</a>
         </li>
         <li className="p-4">
-          <a href="/about">About</a>
-        </li>
+          <a href="/project">Project</a>
+        </li>        
         <li className="p-4">
           <a href="/contact">Contact</a>
         </li>
