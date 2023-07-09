@@ -3,9 +3,9 @@ import Typed from 'react-typed';
 
 const Main = () => {
   return (
-    <div className="text-white text-center h-screen flex flex-col justify-center items-center">
-      <div className="max-w-3xl mx-auto">
-        <h1 className="text-5xl sm:text-6xl font-bold mb-6">
+    <div className='text-white text-center'>
+      <div className='max-w-[790px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center'>
+        <div className='md:text-5xl sm:text-6xl text-4xl font-bold md:py-6'>
           <Typed
             strings={[
               'Welcome to my Website.',
@@ -17,8 +17,8 @@ const Main = () => {
             backSpeed={80}
             loop
           />
-        </h1>
-        <footer className="text-sm text-gray-500">
+        </div>
+        <footer className='text-sm mt-4 text-gray-500'>
           © 2023 ! if#1046. All rights reserved.
         </footer>
       </div>
