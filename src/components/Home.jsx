@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 const Main = () => {
   return (
 
-    <div className='text-white text-center font-bold'>
+    <div className='text-white text-center'>
       <div className='max-w-[790px] mt-[-96px] w-full h-screen mx-auto flex flex-col justify-center'>
         <div className='md:text-5xl sm:text-6xl text-4xl font-bold md:py-6'>
           <Typed
