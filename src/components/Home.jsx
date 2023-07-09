@@ -3,7 +3,7 @@ import Typed from 'react-typed';
 
 const Main = () => {
   return (
-    <div className="text-white text-center h-screen flex flex-col justify-center items-center bg-gray-900">
+    <div className="text-white text-center h-screen flex flex-col justify-center items-center">
       <div className="max-w-3xl mx-auto">
         <h1 className="text-5xl sm:text-6xl font-bold mb-6">
           <Typed
