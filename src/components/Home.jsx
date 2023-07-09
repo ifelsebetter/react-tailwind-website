@@ -15,10 +15,10 @@ const Main = () => {
           loop
           />
         </div>
+        <footer className="text-sm mt-4 text-gray-500">
+          © 2023 ! if#1046. All rights reserved.
+        </footer>
       </div>
-      <footer className="text-sm mt-4 text-gray-500">
-        © 2023 ! if#1046. All rights reserved.
-      </footer>
     </div>
   );
 };
