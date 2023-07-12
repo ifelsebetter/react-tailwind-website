@@ -12,9 +12,9 @@ const Project = () => {
                 Discord-Bot-Js
               </a>
             </h2>
-            <div className="flex items-center mr-8 mb-4">
+            <div className="flex items-center">
               <FaCircle className="text-3xl md:text-4xl mr-2 text-[#f1e05a]" size={15} />
-              <span className="text-base md:text-lg ml-2">JavaScript</span>
+              <span className="text-base md:text-lg">JavaScript</span>
             </div>
           </div>
         </div>
@@ -25,9 +25,9 @@ const Project = () => {
                 slash-command-bot
               </a>
             </h2>
-            <div className="flex items-center mr-8 mb-4">
+            <div className="flex items-center">
               <FaCircle className="text-3xl md:text-4xl mr-2 text-[#f1e05a]" size={15} />
-              <span className="text-base md:text-lg ml-2">JavaScript</span>
+              <span className="text-base md:text-lg">JavaScript</span>
             </div>
           </div>
         </div>
@@ -38,9 +38,9 @@ const Project = () => {
                 react-tailwind-website
               </a>
             </h2>
-            <div className="flex items-center mr-8 mb-4">
+            <div className="flex items-center">
               <FaCircle className="text-3xl md:text-4xl mr-2 text-[#f1e05a]" size={15} />
-              <span className="text-base md:text-lg ml-2">JavaScript</span>
+              <span className="text-base md:text-lg">JavaScript</span>
             </div>
           </div>
         </div>
@@ -51,23 +51,22 @@ const Project = () => {
                 quartyz-website
               </a>
             </h2>
-            <div className="flex items-center mr-8 mb-4">
+            <div className="flex items-center">
               <FaCircle className="text-3xl md:text-4xl mr-2 text-[#f1e05a]" size={15} />
-              <span className="text-base md:text-lg ml-2">JavaScript</span>
+              <span className="text-base md:text-lg">JavaScript</span>
             </div>
           </div>
         </div>
         <div>
           <div className="border border-gray-300 rounded-lg p-6 bg-[#191919]">
             <h2 className="text-2xl font-bold mb-4">
-              <a href="https://github.com/ifelsebetter/garbage-classification-project" target="_blank" rel="noopener noreferrer" className="text-white hover:underline" >
+              <a href="https://github.com/ifelsebetter/garbage-classification-project" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">
                 garbage-classification-project
               </a>
             </h2>
-            <div className="flex items-center mr-8 mb-4">
-              <FaCircle
-                className="text-3xl md:text-4xl mr-2 text-[#3572A5]" size={15} />
-              <span className="text-base md:text-lg ml-2">Python</span>
+            <div className="flex items-center">
+              <FaCircle className="text-3xl md:text-4xl mr-2 text-[#3572A5]" size={15} />
+              <span className="text-base md:text-lg">Python</span>
             </div>
           </div>
         </div>
