@@ -6,7 +6,7 @@ const Project = () => {
     <div className="max-w-3xl mx-auto my-20 px-6 text-white">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         <div>
-          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919]">
+          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919] hover:bg-[#282828]">
             <h2 className="text-2xl font-bold mb-4">
               <a href="https://github.com/ifelsebetter/Discord-Bot-Js" target="_blank" rel="noopener noreferrer" className="text-white hover:underline" >
                 Discord-Bot-Js
@@ -19,7 +19,7 @@ const Project = () => {
           </div>
         </div>
         <div>
-          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919]">
+          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919] hover:bg-[#282828]">
             <h2 className="text-2xl font-bold mb-4">
               <a href="https://github.com/ifelsebetter/slash-command-bot" target="_blank" rel="noopener noreferrer" className="text-white hover:underline" >
                 slash-command-bot
@@ -32,7 +32,7 @@ const Project = () => {
           </div>
         </div>
         <div>
-          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919]">
+          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919] hover:bg-[#282828]">
             <h2 className="text-2xl font-bold mb-4">
               <a href="https://github.com/ifelsebetter/react-tailwind-website" target="_blank" rel="noopener noreferrer" className="text-white hover:underline" >
                 react-tailwind-website
@@ -45,7 +45,7 @@ const Project = () => {
           </div>
         </div>
         <div>
-          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919]">
+          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919] hover:bg-[#282828]">
             <h2 className="text-2xl font-bold mb-4">
               <a href="https://github.com/ifelsebetter/quartyz-website" target="_blank" rel="noopener noreferrer" className="text-white hover:underline" >
                 quartyz-website
@@ -58,7 +58,7 @@ const Project = () => {
           </div>
         </div>
         <div>
-          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919]">
+          <div className="border border-gray-300 rounded-lg p-6 bg-[#191919] hover:bg-[#282828]">
             <h2 className="text-2xl font-bold mb-4">
               <a href="https://github.com/ifelsebetter/garbage-classification-project" target="_blank" rel="noopener noreferrer" className="text-white hover:underline">
                 garbage-classification-project
