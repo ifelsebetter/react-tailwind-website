@@ -1,6 +1,6 @@
 import React from 'react';
 import { CgMail } from 'react-icons/cg';
-import { FaDonate } from 'react-icons/fa'
+import { FaInstagram } from 'react-icons/fa'
 
 const Contact = () => {
   return (
@@ -13,9 +13,9 @@ const Contact = () => {
           </a>
         </li>
         <li>
-          <a href="https://www.buymeacoffee.com/ifelsebetter" className='border rounded-md p-4 my-4 flex items-center hover:bg-[#A9D9D9] bg-gray-100'>
-            <FaDonate size={35} className="mr-4 text-green-500" />
-            <p className="text-xl font-medium">Donate me</p>
+          <a href="https://www.instagram.com/__yusuno" className='border rounded-md p-4 my-4 flex items-center hover:bg-[#A9D9D9] bg-gray-100'>
+            <FaInstagram size={32} className="mr-4 text-pink-600" />
+            <p className="text-xl font-medium">Instagram</p>
           </a>
         </li>
       </ul>

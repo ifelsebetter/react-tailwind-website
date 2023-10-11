@@ -11,7 +11,7 @@ const About = () => {
           I'm a high school student with a passion for programming and space exploration.
         </p>
         <p className="text-base md:text-lg mb-6">
-          Programming languages I can write:
+          Programming languages:
         </p>
         <div className="flex flex-wrap mb-8">
           <div className="flex items-center mr-8 mb-4">
@@ -28,7 +28,7 @@ const About = () => {
           </div>
         </div>
         <p className="text-base md:text-lg mb-6">
-          Frameworks I'm familiar with:
+          Frameworks:
         </p>
         <div className="flex flex-wrap mb-8">
           <div className="flex items-center mr-8 mb-4">
